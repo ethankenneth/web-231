@@ -2,12 +2,6 @@ let header = require('./winter-header.js');
 
 console.log(header.display("Ethan Kenneth", "Winter", "Assignment 2.4 Functions"));
 
-/**
- * 6. Test each of these functions by calling them, passing in test values (yes this means you will need to create test variables), and outputting the results to the console window (yes, this means use the console.log() function to output the results).
- * 7. Run and test the program and make sure your output matches what I have.
- * 8. When you are happy with the output stage, commit, and push your code to GitHub.
- */
-
  // 1. Create a function called fullName with two parameters (first and last name) and a return the two parameters as one string.
 function fullName (firstName, lastName) {
   return firstName + " " + lastName;
@@ -25,14 +19,16 @@ function formatNumber (number, numOfFixedPositions) {
 }
 
 // 4. Create a function called convertToInt with one string parameter.  Parse the string parameter and return the value as an integer.
-function convertToInt() {
-
+function convertToInt(age) {
+  parsedAge = parseInt(age);
+  return parsedAge;
 }
 
 // 5. Create a function called convertToFloat with one string parameter.  Parse the string parameter and return the value as a float.
-function convertToFloat() {
-
+function convertToFloat(savings) {
+  savingsGoal = parseFloat(savings);
+  return savingsGoal;
 }
 
 // 6. Test each of these functions by calling them, passing in test values (yes this means you will need to create test variables), and outputting the results to the console window (yes, this means use the console.log() function to output the results).
-alert("Hello my name is " + fullName("Ethan Kenneth", "Winter")/n )
+alert("Hello my name is " + fullName("Ethan Kenneth", "Winter") + "!\nToday's date is " + dateWriter("2020", "November", "1") + " and the current temperature is " + formatNumber(33.6, 1) + " degrees.\nI am " + convertToInt("36") + " years old and my savings account goal is " + convertToFloat("35500") + " dollars.");
