@@ -1,5 +1,7 @@
 let header = require('./winter-header.js');
 
+console.log(header.display("Ethan Kenneth", "Winter", "Exercise 2.3 Function Properties"));
+
 
 /*
   Expected output:
