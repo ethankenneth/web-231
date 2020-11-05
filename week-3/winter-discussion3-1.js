@@ -13,6 +13,6 @@ let seven = 7;
 let eight = "8";
 
 //if seven is less than eight make a note in the conosole
-if (seven > eight) {
- console.log("Seven is greater than eight!")
-}
+if {seven > eight} (
+  console.log("Seven is greater than eight!")
+)
