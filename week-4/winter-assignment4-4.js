@@ -24,7 +24,7 @@ function filter(states, index, letter)
 
 function getState(arr, filterVal)
 {
-  return (arr === filterVal)
+  return (arr === filterVal);
 }
 
 // Output original array
@@ -34,7 +34,7 @@ states.forEach(state => console.log(state));
 // Output array sorted alphabetically
 console.log("");
 console.log("-- SORTED ARRAY --");
-states.sort().forEach(state => console.log(state))
+states.sort().forEach(state => console.log(state));
 
 
 // Output selected state
@@ -42,5 +42,5 @@ console.log("");
 console.log("-- SELECTED VALUE --");
 console.log(states.filter(function(arr)
 {
-  return getState(arr, "Iowa")
+  return getState(arr, "Iowa");
 })[0]);
