@@ -11,7 +11,7 @@ console.log(header.display("Ethan Kenneth", "Winter", "Exercise 5.3 Object Colle
 
 // Start program
 
-// Create array of composer objects
+// Create array of composer objects.
 let composers = [
 	{
 		firstName: "Ludwig van",
@@ -45,9 +45,9 @@ let composers = [
 	}
 ];
 
-// console header
+// Console log a header.
 console.log("-- Composers --");
-// iterate over artists
+// Iterate over composers and console log last name, genre, and rating.
 composers.forEach(function (composer) {
 	console.log(
 		"Last Name: " +
