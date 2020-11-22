@@ -11,7 +11,7 @@ console.log(header.display("Ethan Kenneth", "Winter", "Exercise 5.2 Built-In Fun
 
 // Start program
 
-// Create string array
+// Create string array of favorite foods.
 let foods = [
 	"Vegan Pizza",
 	"Vegan Cake",
@@ -20,7 +20,7 @@ let foods = [
 	"Vegan Croissants"
 ];
 
-// iterate over foods array
+// Iterate over and console log foods array.
 foods.forEach(function (food) {
 	console.log(food);
 });
