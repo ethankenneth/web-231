@@ -11,7 +11,7 @@ console.log(header.display("Ethan Kenneth", "Winter", "Exercise 6.2 Exception Ha
 
 // Start of program.
 
-// Try to see if x + y is 9
+// Try to see if x + y is 9.
 try
 {
   let x = 10;
