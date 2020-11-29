@@ -2,7 +2,7 @@
  * Title: Exercise 6.3
  * Author: Ethan Kenneth Winter
  * Date: 29 November 2020
- * Description: Create a try/catch with an error
+ * Description: Create an object literal
  */
 
 let header = require('../week-2/winter-header.js');
