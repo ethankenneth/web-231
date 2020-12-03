@@ -1,0 +1,55 @@
+<body>
+  <style>
+    .container {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+    }
+
+    .colorButton {
+      margin: auto;
+    }
+
+    .red {
+      background: red;
+    }
+
+    .blue {
+      background: blue;
+    }
+
+  </style>
+  <div class="container">
+    <button class="colorButton">
+      Click me to change colors
+    </button>
+  </div>
+  <script>
+    /**
+     * Title: Discussion 7.1
+     * Author: Ethan Kenneth Winter
+     * Date: 3 December 2020
+     * Description: Create an HTML page with two errors attempting to manipulate the DOM.
+     */
+
+    let header = require('../week-2/winter-header.js');
+
+    console.log(header.display("Ethan Kenneth", "Winter", "Discussion 7.1 JavaScript in Web Browsers"));
+
+
+    // List variable here.
+    let colorButton = document.querySelector("#colorButton");
+    let container = document.querySelector(".container");
+
+    // Add blue class to container element and red class to button.
+    function colorChange() {
+      container.addClass("blue");
+      colorButton.classList.add("red");
+    }
+
+    // Add even listener to button to add classes.
+    colorButton.addEventListener("click", colorChange);
+
+  </script>
+</body>
