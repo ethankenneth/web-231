@@ -18,7 +18,6 @@
     .blue {
       background: blue;
     }
-
   </style>
   <div class="container">
     <button class="colorButton">
@@ -38,7 +37,7 @@
     console.log(header.display("Ethan Kenneth", "Winter", "Discussion 7.1 JavaScript in Web Browsers"));
 
 
-    // List variable here.
+    // List variables here.
     let colorButton = document.querySelector("#colorButton");
     let container = document.querySelector(".container");
 
@@ -48,7 +47,7 @@
       colorButton.classList.add("red");
     }
 
-    // Add even listener to button to add classes.
+    // Add event listener to button to call colorChange function.
     colorButton.addEventListener("click", colorChange);
 
   </script>

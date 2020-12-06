@@ -1,0 +1,60 @@
+<link href="../site.css" rel="stylesheet">
+
+<div id="listTwo"></div>
+
+<script>
+/**
+ * Title: Discussion 7.3
+ * Author: Ethan Kenneth Winter
+ * Date: 6 December 2020
+ * Description: Create an ordered list with document.write and innerHTML.
+ */
+
+let header = require('../week-2/winter-header.js');
+
+console.log(header.display("Ethan Kenneth", "Winter", "Exercise 7.3 Client-Side JavaScript"));
+
+// Write an ordered list of five items using document.write().
+document.write(`
+<div id="listOne">
+<h1>Shopping List v.1</h1>
+<ol>
+	<li>Oranges</li>
+	<li>Apples</li>
+	<li>Pears</li>
+	<li>Limes</li>
+	<li>Lemons</li>
+</ol>
+</div>`);
+
+// Write an ordered list of five items using .innerHTML.
+document.getElementById("listTwo").innerHTML =
+  "<h1>Shopping List v.2</h1>" +
+  "<table>" +
+    "<tr>" +
+      "<td>Id</td>" +
+      "<td>Item</td>" +
+    "</tr>" +
+    "<tr>" +
+      "<td>1.</td>" +
+      "<td>Oranges</td>" +
+    "</tr>" +
+    "<tr>" +
+      "<td>2.</td>" +
+      "<td>Apples</td>" +
+    "</tr>" +
+    "<tr>" +
+      "<td>3.</td>" +
+      "<td>Pears</td>" +
+    "</tr>" +
+    "<tr>" +
+      "<td>4.</td>" +
+      "<td>Limes</td>" +
+    "</tr>" +
+    "<tr>" +
+      "<td>5.</td>" +
+      "<td>Lemons</td>" +
+    "</tr>" +
+  "</table>";
+
+</script>
