@@ -1,0 +1,18 @@
+/**
+* Title: Exercisee 7.2
+* Author: Ethan Kenneth Winter
+* Date: 6 December 2020
+* Description: CSS for entire site based on Exercise 7.2 requirements.
+ */
+
+body {
+	display: grid;
+}
+
+#listOne {
+	grid-row-start: 1;
+}
+
+#listTwo {
+	grid-row-start: 2;
+}
