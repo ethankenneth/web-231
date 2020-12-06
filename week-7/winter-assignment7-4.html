@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 7.4 Inline JavaScript Functions</title>
+    <link href="../site.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Computer Components</h1>
+    <table>
+      <thead>
+        <tr>
+          <td>ID</td>
+          <td>Name</td>
+          <td>Amount</td>
+          <td>Functions</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Laptop</td>
+          <td>1500.99</td>
+          <td><a href="javascript:alert(1);">Edit </a>|<a href="javascript:alert(onclick=confirm('Are you sure?'));"> Delete</a></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Motherboard</td>
+          <td>35.70</td>
+          <td><a href="javascript:alert(2);">Edit </a>|<a href="javascript:alert(onclick=confirm('Are you sure?'));"> Delete</a></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Monitor</td>
+          <td>174.99</td>
+          <td><a href="javascript:alert(3);">Edit </a>|<a href="javascript:alert(onclick=confirm('Are you sure?'));"> Delete</a></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Mouse</td>
+          <td>13.99</td>
+          <td><a href="javascript:alert(4);">Edit </a>|<a href="javascript:alert(onclick=confirm('Are you sure?'));"> Delete</a></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Keyboard</td>
+          <td>14.50</td>
+          <td><a href="javascript:alert(5);">Edit </a>|<a href="javascript:alert(onclick=confirm('Are you sure?'));"> Delete</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script>
+    /**
+     * Title: Assignment 7.4
+     * Author: Ethan Kenneth Winter
+     * Date: 6 December 2020
+     * Description: Create a Computer Components List using inline JavaScript.
+     */
+
+    let header = require('../week-2/winter-header.js');
+
+    console.log(header.display("Ethan Kenneth", "Winter", "Assignment 7.4 Inline JavaScript Functions"));
+
+    </script>
+
+  </body>
+</html>

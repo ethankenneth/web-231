@@ -1,5 +1,5 @@
 /**
- * Title: Discussion 7.1
+ * Title: Exercise 7.2
  * Author: Ethan Kenneth Winter
  * Date: 6 December 2020
  * Description: Create an employee constructor.
@@ -7,7 +7,7 @@
 
 let header = require('../week-2/winter-header.js');
 
-console.log(header.display("Ethan Kenneth", "Winter", "Exercise 7.1 Constructor Functions"));
+console.log(header.display("Ethan Kenneth", "Winter", "Exercise 7.2 Constructor Functions"));
 
 
 // Employee constructor with id, first & last name and title.
