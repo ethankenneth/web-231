@@ -51,18 +51,19 @@
 
   // Declare variables.
   let $containerClass = $(".container");
-	let $button = $(".changeButton");
+  let $button = $(".changeButton");
 
-	$button.onclick = function(){
-	    if ($container.classList.contains("greenClass")) {
-      $container.removeClass("greenClass");
-      $container.addClass("redClass");
-    } else {
-      $container.addClass("greenClass");
-      $container.removeClass("redClass");
-
-    }
-};
+  // When button is clicked, switch class to change color.
+  $button.onclick = function() {
+      // If button has green, change to red.
+      if ($container.classList.contains("greenClass")) {
+          $container.removeClass("greenClass");
+          $container.addClass("redClass");
+      } else { // If button has red, change to green.
+          $container.addClass("greenClass");
+          $container.removeClass("redClass");
+      }
+  };
 
 </script>
 
