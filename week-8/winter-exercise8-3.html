@@ -92,9 +92,11 @@
      * Date: 15 December 2020
      * Description: Create a toggle button using jQuery.
      */
-    //   let header = require('../week-2/winter-header.js');
-    //   console.log(header.display("Ethan Kenneth", "Winter", "Exercise 8.3 jQuery"));
-    // Toggle button calls toggle function.
+      let header = require('../week-2/winter-header.js');
+
+      console.log(header.display("Ethan Kenneth", "Winter", "Exercise 8.3 jQuery"));
+
+    //Toggle button calls toggle function.
     $("button").click(function()
     {
         $("p").toggle();
@@ -132,6 +134,7 @@
     }
     out += " </table>";
     document.getElementById('fruits').innerHTML = out
+
     // Display array id and fruit when id is clicked.
     $(function()
     {
