@@ -1,0 +1,13 @@
+#employee tbody tr:hover {
+  cursor: pointer;
+  background-color: cyan;
+}
+
+th {
+  background-color: grey;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
