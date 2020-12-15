@@ -4,16 +4,21 @@
 <head>
   <meta charset="utf-8">
   <title>Exercise 8.2 Dynamic HTML</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <style media="screen">
     html {
       font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      font-weight: 400;
+    }
+
+    h1 {
+      margin-block-start: 0;
     }
 
     ul {
       list-style: none;
       margin: 0 auto;
       text-align: center;
-      font-size: 20px;
     }
 
     #navBar {
@@ -49,23 +54,23 @@
   var fruits = [
   {
       id: 101,
-      type: 'Apples'
+      type: "Apples"
   },
   {
       id: 102,
-      type: 'Bananas'
+      type: "Bananas"
   },
   {
       id: 103,
-      type: 'Coconuts'
+      type: "Coconuts"
   },
   {
       id: 104,
-      type: 'Grapes'
+      type: "Grapes"
   },
   {
       id: 105,
-      type: 'Jackfruit'
+      type: "Jackfruit"
   }];
 
   // Create list of fruits by iterating over fruits array.
@@ -75,7 +80,7 @@
   }
   out += " </ul>";
 
-  document.getElementById('fruits').innerHTML = out;
+  document.getElementById("fruits").innerHTML = out;
 </script>
 
 </html>
